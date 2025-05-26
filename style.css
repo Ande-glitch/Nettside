@@ -17,8 +17,9 @@ body {
 }
 
 img {
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 /* Header */
 header {
@@ -80,15 +81,43 @@ main {
     font-size: larger;
     flex: 1;
 }
+
+    #introText {
+        margin-bottom: 1rem;
+    }
+
+        #introText ul li {
+            margin-left: 16rem;
+        }
     section fieldset {
         margin-left: -2.5rem;
     }
     fieldset {
-        padding: 2rem 0rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
         text-align: center;
+    }
+    .emner {
+        padding: 2rem;
+        width: 400px;
+        height: 400px;
+    }
+    .emner img {
+        border: 2px solid #d4d4d8;
+    }
+/* Mediehistorie */
+    .medieBilder {
+        width: 130px;
+        height: 130px;
+        padding-bottom: 52px;
+    }
+    .medieBilder2Div {
+        padding-bottom: 52px;
+    }
+    .medieBilder2 {
+        width: auto;
+        height: auto;
     }
 /* Footer */
 footer {
