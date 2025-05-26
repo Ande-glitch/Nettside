@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0rem;
+    background-color: #fef3c6;
+    font-size: large;
+}
+    #nav1 {
+        padding: 0.6rem 1rem;
+        display: flex;
+        margin-right: 8rem;
+    }  
+    #nav2 {
+        padding: 0.6rem 1rem;
+        display: flex;
+        margin-right: 8rem;
+    }  
+        .hjemside {
+        border: 1px solid #ffd230;
+        padding: 0.6rem 1rem;
+        margin-left: 8rem;
+        border-radius: 10px;
+        background-color: #ffd230;
+        margin-right: 8rem; 
+        }
+        .ommeg {
+        border: 1px solid #ffd230;
+        padding: 0.6rem 1rem;
+        margin-left: 8rem;
+        border-radius: 10px;
+        background-color: #ffd230;
+        margin-right: 8rem; 
+        }
+        .biografi {
+        border: 1px solid #ffd230;
+        padding: 0.6rem 1rem;
+        margin-left: 8rem;
+        border-radius: 10px;
+        background-color: #ffd230;
+        margin-right: 8rem; 
+        }
+        .kontakt {
+        border: 1px solid #ffd230;
+        padding: 0.6rem 1rem;
+        margin-left: 8rem;
+        border-radius: 10px;
+        background-color: #ffd230;
+        margin-right: 8rem; 
+        }
+
+/* Main Section */
+
+main {
+    padding-left: 2.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    font-size: larger;
+    flex: 1;
+}
+    section fieldset {
+        margin-left: -2.5rem;
+    }
+    fieldset {
+        padding: 2rem 0rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0rem;
+    background-color: #fef3c6;
+    font-size: large;
+}
