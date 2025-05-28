@@ -76,6 +76,7 @@ header {
 
 main {
     padding-left: 2.5rem;
+    padding-right: 2.5rem;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
     font-size: larger;
@@ -84,15 +85,32 @@ main {
 
     #introText {
         margin-bottom: 1rem;
+        text-align: center;
     }
 
         #introText ul li {
             margin-left: 16rem;
         }
-    section fieldset {
+
+    .introField {
         margin-left: -2.5rem;
+        margin-right: -2.5rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
     }
-    fieldset {
+        .introField a{
+            padding: 2px;
+            background-color: #ffd230;
+            border-radius: 10px;
+        }
+        .introField p{
+            margin-bottom: 10px;
+        }
+    section .fieldset {
+        margin-left: -2.5rem;
+        margin-right: -2.5rem;
+    }
+    .fieldset {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
