@@ -230,7 +230,7 @@ main {
         border-radius: 0;
     }
     .the-container img {
-        width: 300px;
+        width: 600px;
     }
 }
 @media (max-width: 700px) {
