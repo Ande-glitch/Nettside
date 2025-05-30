@@ -1,9 +1,11 @@
+/* Universal endringer */
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Prata&family=Sevillana&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Prata", "Verdana";
 }
 
 html, body {
@@ -14,6 +16,8 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
+    background-color: #90a1b9;
+    color: #fcfcfc;
 }
 
 img {
@@ -21,127 +25,296 @@ img {
     height: 100%;
     object-fit: contain;
 }
-/* Header */
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.4rem 0rem;
-    background-color: #fef3c6;
-    font-size: large;
+
+a:visited {
+  color: #fcfcfc;
 }
-    #nav1 {
-        padding: 0.6rem 1rem;
-        display: flex;
-        margin-right: 8rem;
-    }  
-    #nav2 {
-        padding: 0.6rem 1rem;
-        display: flex;
-        margin-right: 8rem;
-    }  
-        .hjemside {
-        border: 1px solid #ffd230;
-        padding: 0.6rem 1rem;
-        margin-left: 8rem;
-        border-radius: 10px;
-        background-color: #ffd230;
-        margin-right: 8rem; 
-        }
-        .ommeg {
-        border: 1px solid #ffd230;
-        padding: 0.6rem 1rem;
-        margin-left: 8rem;
-        border-radius: 10px;
-        background-color: #ffd230;
-        margin-right: 8rem; 
-        }
-        .biografi {
-        border: 1px solid #ffd230;
-        padding: 0.6rem 1rem;
-        margin-left: 8rem;
-        border-radius: 10px;
-        background-color: #ffd230;
-        margin-right: 8rem; 
-        }
-        .kontakt {
-        border: 1px solid #ffd230;
-        padding: 0.6rem 1rem;
-        margin-left: 8rem;
-        border-radius: 10px;
-        background-color: #ffd230;
-        margin-right: 8rem; 
-        }
+
+/* Header */
+
+.main-header {
+  background-color: #314158;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0; 
+}
+
+.header-container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-nav ul{
+    list-style: none;
+    display: flex;
+    gap: 8rem;
+    text-align: end;
+}
+
+.main-nav a {
+    color: #fcfcfc;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.main-nav a:hover {
+    color: #0077ff;
+}
 
 /* Main Section */
 
 main {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-    font-size: larger;
     flex: 1;
 }
 
-    #introText {
-        margin-bottom: 1rem;
-        text-align: center;
-    }
-
-        #introText ul li {
-            margin-left: 16rem;
-        }
-
-    .introField {
-        margin-left: -2.5rem;
-        margin-right: -2.5rem;
-        padding-top: 2.5rem;
-        padding-bottom: 2.5rem;
-    }
-        .introField a{
-            padding: 2px;
-            background-color: #ffd230;
-            border-radius: 10px;
-        }
-        .introField p{
-            margin-bottom: 10px;
-        }
-    section .fieldset {
-        margin-left: -2.5rem;
-        margin-right: -2.5rem;
-    }
-    .fieldset {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        text-align: center;
-    }
-    .emner {
-        padding: 2rem;
-        width: 400px;
-        height: 400px;
-    }
-    .emner img {
-        border: 2px solid #d4d4d8;
-    }
-/* Mediehistorie */
-    .medieBilder {
-        width: 130px;
-        height: 130px;
-        padding-bottom: 52px;
-    }
-    .medieBilder2Div {
-        padding-bottom: 52px;
-    }
-    .medieBilder2 {
-        width: auto;
-        height: auto;
-    }
-/* Footer */
-footer {
+.section-container {
     display: flex;
-    justify-content: space-between;
-    padding: 0.4rem 0rem;
-    background-color: #fef3c6;
-    font-size: large;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 16rem;
+    padding-bottom: 2rem;
+    background-color: #1d293d;
+}
+    .section img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    }
+    .enlarge{
+        font-size: 3rem;
+    }
+    .enlargeS{
+        font-size: 2rem;
+    }
+    .shrink{
+        font-size: 1.2rem;
+    }
+
+.the-container {
+    display: flex;
+    flex-direction: row;
+}
+
+    .section-container2 {
+        margin-top: 2rem;
+        margin-left: 2rem;
+        padding: 3rem;
+    }
+
+    .section1 {
+        margin: 4rem 0 1rem 0;
+        padding: 4rem;
+        box-shadow: 6px 6px 10px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .see-more {
+        background-color: #45556c;
+        text-align: center;
+        font-size: x-large;
+        border-radius: 314px;
+    }
+
+    .section-container3  {
+        display: flex;
+        flex-direction: column;
+    }
+    .the-container img {
+        margin-top: 20rem;
+        width: 800px;
+    }
+
+
+/* Footer */
+
+.main-footer {
+  background-color: #314158;
+  padding: 1rem 2rem;
+  position: relative;
+  bottom: 0; 
+}
+
+.footer-container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-nav ul{
+    list-style: none;
+    display: flex;
+    gap: 8rem;
+    text-align: end;
+}
+
+.main-nav a {
+    color: #fcfcfc;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.main-nav a:hover {
+    color: #0077ff;
+}
+
+/* Media Query */
+
+/* 150-175% zoom */
+@media (max-width: 1142px) {
+  .main-nav ul { gap: 15rem; }
+  .the-container img { width: 600px;}
+  .section img { 
+        width: 300px;
+        height: 300px;
+    }
+}
+@media (max-width: 1120px) {
+  .main-nav ul { gap: 15rem; }
+}
+@media (max-width: 1080px) {
+    .main-nav ul { gap: 13rem; }
+    .section img { 
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (max-width: 1028px) {
+    .section img { 
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    .the-container img {
+        width: 550px;
+    }
+}
+@media (max-width: 980px) {
+  .main-nav ul { gap: 11rem; }
+      .the-container img {
+        width: 500px;
+    }
+}
+@media (max-width: 929px) {
+      .the-container img {
+        width: 450px;
+    }
+}
+@media (max-width: 880px) {
+  .main-nav ul { gap: 9rem; }
+        .the-container img {
+        width: 400px;
+    }
+}
+@media (max-width: 829px) {
+        .section img { 
+        margin-top: 7rem;
+        margin-left: 10rem;
+    }
+        .the-container img {
+        width: 300px;
+    }
+}
+
+/* 200-300% zoom */
+@media (max-width: 780px) {
+  .main-nav ul { gap: 8rem; }
+}
+@media (max-width: 750px) {
+  .main-nav ul { gap: 7rem; }
+}
+@media (max-width: 729px) {
+    .section img { 
+        border-radius: 0;
+    }
+    .the-container img {
+        width: 300px;
+    }
+}
+@media (max-width: 700px) {
+  .main-nav ul {
+    gap: 6rem;
+    font-size: medium;
+  }
+}
+@media (max-width: 636px) {
+  .main-nav ul { gap: 4rem; }
+}
+@media (max-width: 540px) {
+  .main-nav ul { gap: 3rem; }
+}
+@media (max-width: 527px) {
+    .enlargeS { font-size: 1.8rem;}
+    .shrink {font-size: 1rem;}
+}
+@media (max-width: 506px) {
+    .enlargeS { font-size: 1.2rem;}
+    .shrink {font-size: 0.8rem;}
+}
+
+/* 400-500% zoom */
+@media (max-width: 493px) {
+  .main-nav ul {
+    font-size: 15px;
+    gap: 2rem;
+  }
+}
+@media (max-width: 430px) {
+  .main-nav ul {
+    font-size: 14px;
+    gap: 2rem;
+  }
+}
+@media (max-width: 408px) {
+  .main-nav ul {
+    font-size: 14px;
+    gap: 2rem;
+  }
+}
+@media (max-width: 402px) {
+  .main-nav ul {
+    font-size: 14px;
+    gap: 1.8rem;
+  }
+}
+@media (max-width: 393px) {
+  .main-nav ul {
+    font-size: 12px;
+    gap: 2rem;
+  }
+}
+@media (max-width: 367px) {
+  .main-nav ul {
+    font-size: 11px;
+    gap: 2rem;
+  }
+}
+@media (max-width: 361px) {
+    .section1 {
+        margin: 4rem 0 1rem 0;
+        padding: 2rem;
+    }
+}
+@media (max-width: 350px) {
+    .main-nav ul {
+        font-size: 10px;
+        gap: 2rem;
+    }
+}
+@media (max-width: 333px) {
+    .main-nav ul {
+        font-size: 9px;
+        gap: 2rem;
+    }
+}
+@media (max-width: 320px) {
+    .section1 {
+        margin: 4rem 0 1rem 0;
+        padding: 1rem;
+    }
+    .enlarge {
+        font-size: 2rem;
+    }
 }
