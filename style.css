@@ -170,6 +170,9 @@ main {
         border: 2px solid black;
         border-radius: 26px;
     }
+    .coupled .shrink {
+        font-weight: 100;
+    }
 
 /* Footer */
 
@@ -226,7 +229,7 @@ main {
     .coupled-section {
         flex-direction: column;
     }
-    .coupled img {
+    .coupled img, .coupled video {
         min-width: 200px;
         margin-top: 10px;
     }
