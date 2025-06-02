@@ -3,73 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Mine opplevelser</title>
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <header>
-        <nav id="nav1">
-            <div class="hjemside"><h3><a href="../index.html">Hjemside</a></h3></div>
-            <div class="ommeg"><h3><a href="../Navigasjon/ommeg.html">Om Meg</a></h3></div>
-        </nav>
-        <nav id="nav2">
-            <div class="biografi"><h3><a href="../Navigasjon/main.html">Vitae</a></h3></div>
-            <div class="kontakt"><h3><a href="../Navigasjon/kontakt.html">Kontakt</a></h3></div>
-        </nav>
+    <header class="main-header">
+        <div class="header-container">
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html">Hjemside</a></li>
+                    <li><a href="ommeg.html">Om Meg</a></li>
+                    <li><a href="main.html">Vitae</a></li>
+                    <li><a href="kontakt.html">Kontakt meg</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-         <main>
-        <section id="introText">
-            <h3>Oversikt</h3>
-            <p>Her ligger det oversikt over ulike fag og emner jeg har vært inne på</p>
-        </section>
-        <section>
-            <fieldset class="fieldset">
-                <div class="emner">
-                    <h3>Produksjon og historiefortelling</h3>
-                    <a href="../Emner/medie.html">
-                        <img src="../Images/historiefor.jpg" alt="">
-                    </a>
-                    <h4>(159 Timer)</h4>
-                </div>
-                <div class="emner">
-                    <h3>Teknologiforståelse</h3>
-                    <a href="../Emner/tekno.html">
-                        <img src="../Images/teknofor.png" alt="">
-                    </a>
-                    <h4>(159 Timer)</h4>
-                </div>
-                <div class="emner">
-                    <h3>Yrkesfaglig fordypning</h3>
-                    <a href="../Emner/yff.html">
-                        <img src="../Images/yffbilde.jpg" alt="">
-                    </a>
-                    <h4>(168 Timer)</h4>
-                </div>
-                <div class="emner">
-                    <h3>Konseptutvikling og programmering</h3>
-                    <a href="../Emner/program.html">
+        <main>
+        <div class="intro-container">
+            <section class="sectionIMG2">
+                <img src="../Images/exp.jpg" alt="">
+            </section>
+            <section class="section">
+                <h1 class="enlargeS">Mine opplevelser</h1>
+                <br>
+                <h2 class="shrink">Her ligger det en oversikt over de ulike fag/emner jeg har vært inne om på denne skoleåret.</h2>
+            </section>
+        </div>
+
+        <div class="main-section-container">
+            <div class="info-coupled-container">
+                <section class="coupled-section">
+                    <div class="coupled">
+                        <h1 class="enlargeS emne">Teknologiforståelse</h1>
+                        <br>
+                        <h2 class="shrink">Teknologiforståelse innebærer masse forskjellig blant emnet av teknologi. Vi har vært inne om mye teoretisk, og samt har drevet med prosjekter. Lyst å se for deg hva vi har drevet med?</h2>
+                        <br>
+                        <h3 class="see-more"><a href="../Emner/tekno.html">Se her</a></h3>
+                    </div>
+                    <div class="coupled">
+                        <img src="../Images/teknofor.jpg" alt="">
+                    </div>
+                </section>
+                <section class="coupled-section reverse">
+                    <div class="coupled">
+                        <h1 class="enlargeS emne">Produksjon og historiefortelling</h1>
+                        <br>
+                        <h2 class="shrink">Produksjon og historiefortelling er en fag som innebærer arbeid og produksjon av medie. Blant skoleåret fikk vi jobbe med ulike verktøy/teknikk som føres i medieproduksjon. Lyst å se mer?</h2>
+                        <br>
+                        <h3 class="see-more"><a href="../Emner/medie.html">Se her</a></h3>
+                    </div>
+                    <div class="coupled">
+                        <img src="../Images/historiefor.jpeg" alt="">
+                    </div>
+                </section>
+                <section class="coupled-section">
+                    <div class="coupled">
+                        <h1 class="enlargeS emne">Konseptutvikling og programmering</h1>
+                        <br>
+                        <h2 class="shrink">Konseptutvikling og programmering går dypt innenfor emnet av nettside oppsett, og grunnleggende programmerings ferdigheter. Vi har lært blant annet om HTML, CSS og JavaScript. Lyst å høre mer?</h2>
+                        <br>
+                        <h3 class="see-more"><a href="../Emner/program.html">Se her</a></h3>
+                    </div>
+                    <div class="coupled">
                         <img src="../Images/programfor.jpg" alt="">
-                    </a>
-                    <h4>(159 Timer)</h4>
-                </div>
-                <div class="emner">
-                    <h3>Prosjekter</h3>
-                    <a href="../Emner/prosjekt.html">
-                        <img src="../Images/prosjek.jpg" alt="">
-                    </a>
-                </div>
-            </fieldset>
-        </section>
-     </main>
-    <footer>
-        <nav id="nav1">
-            <div class="hjemside"><h3><a href="../index.html">Hjemside</a></h3></div>
-            <div class="ommeg"><h3><a href="../Navigasjon/ommeg.html">Om Meg</a></h3></div>
+                    </div>
+                </section>
+                <section class="coupled-section reverse">
+                    <div class="coupled">
+                        <h1 class="enlargeS emne">Yrkesfaglig fordypning</h1>
+                        <br>
+                        <h2 class="shrink">Yrkesfaglig fordypning, oftest forkortet til YFF er en fag som innebærer mest om å ha oversikt og opplæring for framtiden. Vi har fått utplassering til ulike firma, besøkt virksomheter. Og har dokumentert vår opplevelse blant dett faget med et blogg. Lyst å vite mer?</h2>
+                        <br>
+                        <h3 class="see-more"><a href="../Emner/yff.html">Se her</a></h3>
+                    </div>
+                    <div class="coupled">
+                        <img src="../Images/yff.png" alt="">
+                    </div>
+                </section>
+                <section class="coupled-section">
+                    <div class="coupled">
+                        <h1 class="enlargeS emne">Prosjekter</h1>
+                        <br>
+                        <h2 class="shrink">Denne feltet går dypt utover de ulike prosjekter vi har drevet med dette skoleåret. Blant prosjekter, inneholder det prosjekter som vi jobber med tverrfaglig mellom to eller flere fag, eller prosjekter på en fag. Sjekk ut de ulike prosjekter jeg har drevet med.</h2>
+                        <br>
+                        <h3 class="see-more"><a href="../Emner/prosjekt.html">Se her</a></h3>
+                    </div>
+                    <div class="coupled">
+                        <img src="../Images/prosjek.png" alt="">
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="main-footer">
+    <div class="footer-container">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="../index.html">Hjemside</a></li>
+                <li><a href="ommeg.html">Om Meg</a></li>
+                <li><a href="main.html">Vitae</a></li>
+                <li><a href="kontakt.html">Kontakt meg</a></li>
+            </ul>
         </nav>
-        <nav id="nav2">
-            <div class="biografi"><h3><a href="../Navigasjon/main.html">Vitae</a></h3></div>
-            <div class="kontakt"><h3><a href="../Navigasjon/kontakt.html">Kontakt</a></h3></div>
-        </nav>
-    </footer>
+    </div>
+</footer>
 </body>
 </html>

@@ -7,77 +7,133 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <header>
-        <nav id="nav1">
-            <div class="hjemside"><h3><a href="../index.html">Hjemside</a></h3></div>
-            <div class="ommeg"><h3><a href="../Navigasjon/ommeg.html">Om Meg</a></h3></div>
-        </nav>
-        <nav id="nav2">
-            <div class="biografi"><h3><a href="../Navigasjon/main.html">Vitae</a></h3></div>
-            <div class="kontakt"><h3><a href="../Navigasjon/kontakt.html">Kontakt</a></h3></div>
-        </nav>
+    <header class="main-header">
+        <div class="header-container">
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html">Hjemside</a></li>
+                    <li><a href="../Navigasjon/ommeg.html">Om Meg</a></li>
+                    <li><a href="../Navigasjon/main.html">Vitae</a></li>
+                    <li><a href="../Navigasjon/kontakt.html">Kontakt meg</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-         <main>
-        <section id="introText">
-            <h1>Om Produksjon og historiefortelling</h1>
-            <p>Produksjon og historiefortelling er sentral programfag innenfor første året av informasjonsteknologi og medieproduksjon. Arbeidet blant denne faget innebærer hovedsakelig om teknologi og teknikk innenfor medieproduksjon som <b>kamera</b>, <b>Adobe-program</b> og <b>spill-produksjon</b>. Siden vil gå gjennom prosjekter og oppgaver som jeg var stolt av å få arbeidet med, og hva vi har lært underveis.</p>
-            <br>
-            <h3>Min mediehistorie</h3>
-            <p>Dette var det første prosjektet vi hadde blant Prod & Historiefortelling og gikk utover å sette sammen innspilling av lyd, video og musikk slik at vi kunne produsere en engasjerende og informativt historie utover medie i livet vårt.</p>
-            <video controls width="480">
-            <source src="../Images/minmedie.mp4"/>
-            </video>
-            <br><br>
-            <h3>Skrekktober</h3>
-            <p>En filmprosjekt som gikk utover samarbeid og kamerateknikk. En gøy oppgave/prosjekt, der vi skulle diskutere og jobbe sammen til å få produsert en produkt som gikk utover kravene som manusen og oppgaven bedt oss om.</p>
-            <br>
-            <h3>Premiere Pro</h3>
-            <p>Adobe-program som vi forårsakte å få lært og gjort noen oppgaver på. En veldig fin program til redigering av klipp, videosnutt og generelt et grei program til å få laget video og medie.</p>
-            <img src="../Images/prempro.png" alt="" class="medieBilder">
-            <br>
-            <h3>After Effects</h3>
-            <p>Adobe-program som vi forårsakte å få lært og gjort noen oppgaver på. En ganske avansert redigerings program for å legge på spesielle effekter på videoklipp eller korte snutt. Programmet ga med en ganske stor innsyn til hvordan teknologi har utviklet utover tiden.</p>
-            <div class="medieBilder2Div">
-            <img src="../Images/afteref.jpg" alt="" class="medieBilder2"> 
-            <p>Kilde: Toralv Østvang. Dinosaur-bildet: Pixabay.com</p>
+        <main>
+        <div class="intro-container">
+            <section class="sectionIMG2">
+                <img src="../Images/historiefor.jpeg" alt="">
+            </section>
+            <section class="section">
+                <h1 class="enlargeS">Produksjon og historiefortelling</h1>
+                <p>Produksjon og historiefortelling er sentral programfag innenfor første året av informasjonsteknologi og medieproduksjon. Arbeidet blant denne faget innebærer hovedsakelig om teknologi og teknikk innenfor medieproduksjon som <b>kamera</b>, <b>Adobe-program</b> og <b>spill-produksjon</b>. Siden vil gå gjennom prosjekter og oppgaver som jeg var stolt av å få arbeidet med, og hva vi har lært underveis.</p>
+            </section>
+        </div>
+
+        <div class="main-section-container">
+            <div class="info-coupled-container">
+                <section class="coupled-section">
+                    <div class="coupled">
+                        <h1 class="enlargeS emne">Min mediehistorie</h1>
+                        <br>
+                        <h2 class="shrink">Dette var det første prosjektet vi hadde blant Prod & Historiefortelling og gikk utover å sette sammen innspilling av lyd, video og musikk slik at vi kunne produsere en engasjerende og informativt historie utover medie i livet vårt.</h2>
+                        <br>
+                    </div>
+                    <div class="coupled">
+                        <video muted loop autoplay>
+                            <source src="../Images/minmedie.mp4"/>
+                        </video>
+                    </div>
+                </section>
+                <section class="coupled-section reverse">
+                    <div class="coupled">
+                        <h1 class="enlargeS emne">Skrekktober</h1>
+                        <br>
+                        <h2 class="shrink">En filmprosjekt som gikk utover samarbeid og kamerateknikk. En gøy oppgave/prosjekt, der vi skulle diskutere og jobbe sammen til å få produsert en produkt som gikk utover kravene som manusen og oppgaven bedt oss om.</h2>
+                        <br>
+                    </div>
+                    <div class="coupled">
+                        <video muted loop autoplay>
+                            <source src="../Images/skrekk.mp4"/>
+                        </video>
+                    </div>
+                </section>
+                <section class="coupled-section">
+                    <div class="coupled">
+                        <h1 class="enlargeS emne">Premiere Pro</h1>
+                        <br>
+                        <h2 class="shrink">Adobe-program som vi forårsakte å få lært og gjort noen oppgaver på. En veldig fin program til redigering av klipp, videosnutt og generelt et grei program til å få laget video og medie.</h2>
+                        <br>
+                    </div>
+                    <div class="coupled">
+                        <img src="../Images/prempro.png" alt="" style="border-radius: 0; border: 0; width: 400px;">
+                    </div>
+                </section>
+                <section class="coupled-section reverse">
+                    <div class="coupled">
+                        <h1 class="enlargeS emne">After Effects</h1>
+                        <br>
+                        <h2 class="shrink">Adobe-program som vi forårsakte å få lært og gjort noen oppgaver på. En ganske avansert redigerings program for å legge på spesielle effekter på videoklipp eller korte snutt. Programmet ga med en ganske stor innsyn til hvordan teknologi har utviklet utover tiden.</h2>
+                        <br>
+                    </div>
+                    <div class="coupled">
+                        <img src="../Images/afteref.jpg" alt="">
+                        <p>Kilde: Toralv Østvang. Dinosaur-bildet: Pixabay.com</p>
+                    </div>
+                </section>
+                <section class="coupled-section">
+                    <div class="coupled">
+                        <h1 class="enlargeS emne">After Effects - Musikkvideo</h1>
+                        <br>
+                        <h2 class="shrink">Oppgave vi jobbet på med After Effects. En nivåtilpasset oppgave som ga oss mulighet til å styre arbeid selv. Jeg valgte musikkvideo, og lagde en animasjon til en sang. Jeg var stolt av denne arbeidet, der jeg fikk til animasjon av en karakter og gløde effekter på ulike punkter av animasjonen min.</h2>
+                        <br>
+                    </div>
+                    <div class="coupled">
+                        <video muted loop autoplay>
+                            <source src="../Images/moonlord.mp4"/>
+                        </video>
+                    </div>
+                </section>
+                <section class="coupled-section reverse">
+                    <div class="coupled">
+                        <h1 class="enlargeS emne">Stopmotion - Pixilation Fight Scene</h1>
+                        <br>
+                        <h2 class="shrink">I en gruppe, samarbeidet vi med å lage en stopmotion animasjon, og ved motivet pixelation som innebærte en film teknikk; der skuespillere beveger ved å ta flere bilder i sammenheng med hverandre til å gi illusjonen av bevegelse.</h2>
+                        <br>
+                    </div>
+                    <div class="coupled">
+                        <video muted loop autoplay>
+                            <source src="../Images/stopmotion.mp4"/>
+                        </video>
+                    </div>
+                </section>
+                <section class="coupled-section">
+                    <div class="coupled">
+                        <h1 class="enlargeS emne">Godot Oppgave - 2D platformer</h1>
+                        <br>
+                        <h2 class="shrink">Siste oppgave av Produksjon og Historiefortelling, og gikk utover spill-motoren Godot. Vi som gruppe valgte å lage en 2D platformer som prosjekt, og fordelte medlemmene til ulike roller. Jeg jobbet som grafikk-designer sammen med en annen medelev, og forårsakte å produsere 2D design som hovedkarakter, fiender og kart over spillet.</h2>
+                        <br>
+                    </div>
+                    <div class="coupled">
+                        <video muted loop autoplay>
+                            <source src="../Images/godot.mp4"/>
+                        </video>
+                    </div>
+                </section>
             </div>
-            <br>
-            <h3>After Effects - Musikkvideo</h3>
-            <p>Oppgave vi jobbet på med After Effects. En nivåtilpasset oppgave som ga oss mulighet til å styre arbeid selv. Jeg valgte musikkvideo, og lagde en animasjon til en sang. Jeg var stolt av denne arbeidet, der jeg fikk til animasjon av en karakter og gløde effekter på ulike punkter av animasjonen min.</p>
-            <video controls width="480">
-            <source src="../Images/moonlord.mp4"/>
-            </video>
-            <br>
-            <h3>Stopmotion - Pixilation Fight Scene</h3>
-            <p>I en gruppe, samarbeidet vi med å lage en stopmotion animasjon, og ved motivet pixelation som innebærte en film teknikk; der skuespillere beveger ved å ta flere bilder i sammenheng med hverandre til å gi illusjonen av bevegelse.</p>
-            <video controls width="480">
-            <source src="../Images/stopmotion.mp4"/>
-            </video>
-            <br>
-            <h3>Godot Oppgave - 2D platformer</h3>
-            <p>Siste oppgave av Produksjon og Historiefortelling, og gikk utover spill-motoren Godot. Vi som gruppe valgte å lage en 2D platformer som prosjekt, og fordelte medlemmene til ulike roller. Jeg jobbet som grafikk-designer sammen med en annen medelev, og forårsakte å produsere 2D design som hovedkarakter, fiender og kart over spillet.</p>
-            <video controls width="480">
-            <source src="../Images/godot.mp4"/>
-            </video>
-            <br>
-            <h3>Sluttrefleksjon - Hva har jeg lært?</h3>
-            <p>Til slutt har vi lært masse grunnleggende om medieproduksjon og teknologi i denne skoleåret. Som å kunne arbeide med Adobe-program, kamera arbeid og spillproduksjon, men jeg vil gjerne nevne noen punkter som jeg har vært veldig stolt av å lære, som var følgende emner: 
-                <br><br>
-                    <li>Videoredigering - Premiere Pro</li>
-                    <li>Animasjon og effektlegging - After Effects</li>
-                    <li>Pixilation - Stopmotion</li>
-            </p>
-        </section>
-     </main>
-    <footer>
-        <nav id="nav1">
-            <div class="hjemside"><h3><a href="../index.html">Hjemside</a></h3></div>
-            <div class="ommeg"><h3><a href="../Navigasjon/ommeg.html">Om Meg</a></h3></div>
+        </div>
+    </main>
+    <footer class="main-footer">
+    <div class="footer-container">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="../index.html">Hjemside</a></li>
+                <li><a href="../Navigasjon/ommeg.html">Om Meg</a></li>
+                <li><a href="../Navigasjon/main.html">Vitae</a></li>
+                <li><a href="../Navigasjon/kontakt.html">Kontakt meg</a></li>
+            </ul>
         </nav>
-        <nav id="nav2">
-            <div class="biografi"><h3><a href="../Navigasjon/main.html">Vitae</a></h3></div>
-            <div class="kontakt"><h3><a href="../Navigasjon/kontakt.html">Kontakt</a></h3></div>
-        </nav>
-    </footer>
+    </div>
+</footer>
 </body>
 </html>
