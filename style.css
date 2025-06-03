@@ -30,6 +30,20 @@ a:visited, a {
   color: #fcfcfc;
 }
 
+span {
+    display: none;
+}
+
+.see-more {
+  transition: padding 0.1s ease-in;
+}
+
+.see-more:hover {
+    text-decoration: underline;
+    padding: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 /* Header */
 
 .main-header {
@@ -293,5 +307,8 @@ main {
 @media (max-width: 340px) {
     .main-nav ul {
         font-size: 0.65rem;
+    }
+    span {
+        display: contents;
     }
 }
