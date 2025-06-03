@@ -306,7 +306,7 @@ main {
 
 @media (max-width: 340px) {
     .main-nav ul {
-        font-size: 0.65rem;
+        font-size: 0.62rem;
     }
     span {
         display: contents;
