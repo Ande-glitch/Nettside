@@ -61,7 +61,8 @@ a:visited, a {
 }
 
 .main-nav a:hover {
-    color: #0077ff;
+    color: #fcfcfc;
+    text-decoration: underline;
 }
 
 /* Main Section */
@@ -203,8 +204,8 @@ main {
     transition: color 0.3s;
 }
 
-.main-nav a:hover {
-    color: #0077ff;
+.link {
+    text-decoration: underline;
 }
 
 /* Media Query */
